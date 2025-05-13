@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="390.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.moneytraker.RegisterController">
+   <children>
+      <Label layoutX="50.0" layoutY="39.0" text="Register For Money Traker">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnRegister" layoutX="121.0" layoutY="258.0" mnemonicParsing="false" onAction="#Register" prefHeight="44.0" prefWidth="149.0" text="Register">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="registerPassword" layoutX="192.0" layoutY="173.0" />
+      <TextField fx:id="registerUsername" layoutX="192.0" layoutY="130.0" />
+      <Label layoutX="25.0" layoutY="127.0" text="Username:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="170.0" text="Password:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Separator layoutX="16.0" layoutY="87.0" prefHeight="8.0" prefWidth="361.0" />
+      <Separator layoutX="16.0" layoutY="242.0" prefHeight="8.0" prefWidth="361.0" />
+      <Button fx:id="btnBackToLogInForm" layoutX="16.0" layoutY="361.0" mnemonicParsing="false" onAction="#BackToLogInForm" text="Back to log in page" />
+   </children>
+</AnchorPane>
