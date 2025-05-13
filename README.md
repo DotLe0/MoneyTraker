@@ -1,6 +1,7 @@
 # MoneyTraker
 
 This is my first project with Java. The purpose of this project is just for practice with Java, JavaFX, and MySQL.
+Beware it's still a work in progress.
 
 ## Login Page
 
